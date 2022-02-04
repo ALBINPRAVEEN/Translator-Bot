@@ -1,6 +1,6 @@
 
 import os
-from .admin import Database, db, BOT_OWNER
+from plugins.admin import Database, db, BOT_OWNER
 from io import BytesIO
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
